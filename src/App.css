@@ -1,0 +1,412 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.navbar-component {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.navbar-component .left {
+  align-items: center;
+  display: flex;
+}
+.navbar-component .left .logo-wrap {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+.navbar-component .container-fluid .title {
+  color: #fff;
+  font-family: IntegralCF;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.013;
+  margin-left: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.navbar-component .link,a {
+  color: #fff;
+  cursor: pointer;
+  font-family: Gotham;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.646;
+  margin-left: 20px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.home-Section1 {
+  background: url('../public/assets/images/main4.png')  no-repeat 50%;
+  background-color: #000;
+  background-size: cover;
+  padding-bottom: 110px;
+  position: relative;
+  width: 100%;
+}
+.home-Section1 .main {
+  /* max-width: 1100px;
+  max-width: 65%;
+  padding: 60px 80px; */
+  position: relative;
+  z-index: 2;
+}
+.home-Section1 .para {
+  color: #fff;
+  font-family: GothamLight;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  margin-top: 30px;
+  /* padding-right: 40px; */
+  text-align: left;
+  text-transform: uppercase;
+}
+body[data-aos-duration='225'] [data-aos],
+[data-aos][data-aos][data-aos-duration='225']{
+  transition-duration: 225ms;
+}
+.home-Section1 .title {
+  color: #fff;
+  font-family: IntegralCF;
+  font-size: 61px;
+  letter-spacing: 3px;
+  line-height: .775;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-Section1 .sub {
+  color: #00ffe8;
+  font-family: Gotham;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 1.646;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-Section1 .point {
+  align-items: center;
+  display: flex;
+}
+
+/* About */
+.home-section2 {
+  background: url('../public/assets/images/about_background.png') no-repeat 50%;
+  background-color: #000;
+  background-size: cover;
+  overflow: hidden;
+  padding: 80px 0;
+  position: relative;
+  width: 100%;
+}
+.home-section2bg{
+  background: url('../public/assets/images/bg_about.png') no-repeat 0%;
+}
+.utilities2bg{
+  background: url('../public/assets/images/dc46ffe4863dd9e775ae.png') no-repeat 0%;
+}
+
+.home-section2 .para {
+  color: #fff;
+  font-family: GothamLight;
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin-top: 70px;
+  padding-right: 40px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-section2 .title {
+  color: #fff;
+  font-family: IntegralCF;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: .882;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* slick */
+/* .slick-c1{
+  padding: 0px 50px
+}
+.slick-c2{
+  width: 5668px; opacity: 1; transform: translate3d(-2180px, 0px, 0px)
+}
+.slick-c3{
+  width: 218px
+} */
+.home-section3{
+
+  background: url('../public/assets/images/back26e40a933506065ab6f3.png') no-repeat 50%;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+  /* padding: 80px 0; */
+  position: relative;
+  width: 100%;
+}
+.home-section3 .line {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.home-section3 .line .borderr {
+  border-top: 5px solid rgba(0,255,232,.4);
+  width: 450px;
+}
+.home-section3 .main-title {
+  color: #fff;
+  display: block;
+  font-family: IntegralCF;
+  font-size: 55px;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: .882;
+  margin: 10px auto auto 80px;
+  text-transform: uppercase;
+}
+/* home section */
+
+.home-section5 {
+  background: url('../public/assets/images/background.a6c5847866beb1d6ecb4.png') no-repeat 50%;
+  
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.home-section5 .wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 1500px;
+}
+.home-section5 .wrapper .left {
+  margin-top: 80px;
+  overflow: hidden;
+  width: 50%;
+}
+.home-section5 .title {
+  color: #fff;
+  font-family: IntegralCF;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: .833;
+  text-shadow: 0 8px 6.48px rgb(0 0 0 / 83%);
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.home-section5 .para {
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.home-section5 .para {
+    color: #fff;
+    font-family: GothamBook;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 25px;
+    text-shadow: 0 0 15.48px rgb(0 0 0 / 0%);
+    text-transform: uppercase;
+}
+.home-section5 .social-icon {
+  align-items: center;
+  display: flex;
+  margin-left: -15px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* slider */
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  /* background: url('../public/assets/images/right.png') no-repeat 50%; */
+
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+.home-section4{
+  background: url('../public/assets/images/sdasd.png') no-repeat 50%;
+  background-color: #000;
+  background-position: top;
+  background-size: 100%;
+  overflow: hidden;
+  /* padding: 80px 0; */
+  position: relative;
+  width: 100%;
+}
+
+.teamdown{
+  background: url('../public/assets/images/32423.png') no-repeat 0%;
+}
+.teamcarddown{
+  background: url('../public/assets/images/cs.png') no-repeat 0%;
+}
+.home-section4 .line {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.home-section4 .main-title {
+  color: #fff;
+  display: block;
+  font-family: IntegralCF;
+  font-size: 55px;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: .882;
+  margin: 10px auto auto 80px;
+  text-transform: uppercase;
+}
+.home-section4 .line .borderr {
+  border-top: 5px solid rgba(0,255,232,.4);
+  width: 300px;
+}
+.home-section4  .team-card {
+  align-items: center;
+  background-image: linear-gradient(-52deg,hsla(0,0%,100%,.11),hsla(0,0%,82%,.4));
+  border: 2px solid aqua;
+  border-radius: 55px;
+  box-shadow: 0 0 17px 1px rgb(0 255 255 / 75%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  -webkit-transform: scale(1)!important;
+  transform: scale(1)!important;
+  transition: all .3s ease-in-out;
+  /* width: 31%; */
+  z-index: 6;
+}
+.home-section4 .para {
+  color: #fff;
+  font-family: GothamBook;
+  font-size: 19.781px;
+  line-height: 1.896;
+  margin-top: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-section4  .title {
+  color: #fff;
+  font-family: IntegralCF;
+  font-size: 31.65px;
+  letter-spacing: 3px;
+  line-height: 1.053;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-header {
+
+  border-bottom: none;
+}
+
+
+
+/* footer */
+.footer-component {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+  width: 100%;
+}
+.footer-component .logo {
+  position: relative;
+  z-index: 2;
+}
+.footer-component .copyright {
+  color: #fff;
+  font-family: Gotham;
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 1.646;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.footer-component .left-shdow {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 20%;
+  z-index: 1;
+}
+.footer-component .right-shdow {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 25%;
+  z-index: 0;
+}
+.home-section5 .social-icon img:hover{
+  transform: rotate(1turn);
+}
+.home-section5 .social-icon img {
+  cursor: pointer;
+  max-width: 100%;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: -webkit-transform .9s ease;
+  transition: transform .9s ease;
+  transition: transform .9s ease,-webkit-transform .9s ease;
+  width: 100%;
+}
