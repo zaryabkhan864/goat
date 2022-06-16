@@ -13,7 +13,7 @@ const About = () => {
          
                     <div className="col-lg-6 " data-aos="fade-right">
                     {/* <img className='img-fluid' src="assets/images/bg_about.png" alt="" /> */}
-                    <div className="main-title">ABOUT US</div>
+                    {/* <div className="main-title">ABOUT US</div> */}
                     <div className="left aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" data-aos-anchor-placement="top-bottom">
                         <img className='img-fluid' src="assets/images/aboutgoat.png" alt="" />
                     </div>
