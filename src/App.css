@@ -1,5 +1,11 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+.font-face-gm {
+  font-family: "GoldmanBold";
+ }
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -51,7 +57,7 @@ section .right {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 2% 0%;
 }
 .navbar-component .left {
   align-items: center;
@@ -63,27 +69,33 @@ section .right {
   display: flex;
 }
 .navbar-component .container-fluid .title {
+  margin-left: 1%;
   color: #fff;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Bold;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 3px;
   line-height: 1.013;
-  margin-left: 20px;
+
   text-align: left;
   text-transform: uppercase;
 }
+
 .navbar-component .link,a {
   color: #fff;
   cursor: pointer;
-  font-family: Gotham;
-  font-size: 17px;
-  letter-spacing: 1px;
+  font-family: GothamBold;
+  font-size: 18px;
+  letter-spacing: 2px;
   line-height: 1.646;
-  margin-left: 20px;
+  margin-left: 40px;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
+}
+.navbar-nav {
+
+  padding-left: 18px !important;
 }
 .home-Section1 {
   background: url('../public/assets/images/main4.png')  no-repeat 50%;
@@ -99,6 +111,118 @@ section .right {
   padding: 60px 80px; */
   position: relative;
   z-index: 2;
+}
+.home-Section1 .main1 {
+  max-width: 1100px;
+  max-width: 65%;
+  padding: 5% 5%;
+  position: relative;
+  z-index: 2;
+}
+
+.home-Section1 .main1 .para {
+  color: #fff;
+  font-family: GothamLight;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  margin-top: 3%;
+  padding-right: 4%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-Section1 .main1 .title1 {
+  max-width: 100%;
+  width: 100%;
+}
+.home-Section1 .main1 .milestone {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.home-Section1 .main1 .milestone .point {
+  align-items: center;
+  display: flex;
+}
+.home-Section1 .main1 .milestone .point img {
+  width: 26px;
+}
+.home-Section1 .main1 .milestone .point .number {
+  margin-left: 30px;
+}
+.home-Section1 .main1 .milestone .point .number .title {
+  color: #fff;
+  font-family: IntegralCF-Bold;
+  font-size: 61px;
+  letter-spacing: 3px;
+  line-height: .775;
+  text-align: left;
+  text-transform: uppercase;
+}
+.navbar-component .left .logo-wrap .logo img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.home-Section1 .main1 .milestone .point .number .sub {
+  color: #00ffe8;
+  font-family: Gotham;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 1.646;
+  margin-top: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.home-Section1 .main1 .title {
+  max-width: 100%;
+  width: 100%;
+}
+.home-Section1 .main1 .milestone .point {
+  align-items: center;
+  display: flex;
+}
+.home-Section1 .main1 .milestone .point img {
+  width: 26px;
+}
+.home-Section1 .main1 .milestone .point .number {
+  margin-left: 30px;
+}
+.home-Section1 .main1 .milestone .point {
+  align-items: center;
+  display: flex;
+}
+.home-Section1 .m-circle1 {
+  display: none;
+}
+.home-Section1 .goat-img1 {
+  position: absolute;
+  right: 0;
+  top: 13%;
+  z-index: 1;
+  width: 60%;
+}
+.home-Section1 .goat-img1 img {
+  max-width: 100%;
+  width: 100%;
+}
+.home-Section1 .goat-img1 .web {
+  display: block;
+}
+.home-Section1 .goat-img1 .mobile {
+  display: none;
+}
+.home-Section1 .mintNow1 {
+  cursor: pointer;
+  position: absolute;
+  right: 6%;
+  top: 75%;
+  width: 40%;
+  z-index: 3;
+  padding: 1.29rem!important;
+}
+.home-Section1 .mintNow1 img {
+  max-width: 100%;
+  width: 100%;
 }
 .home-Section1 .para {
   color: #fff;
@@ -117,7 +241,7 @@ body[data-aos-duration='225'] [data-aos],
 }
 .home-Section1 .title {
   color: #fff;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Bold;
   font-size: 61px;
   letter-spacing: 3px;
   line-height: .775;
@@ -146,12 +270,14 @@ body[data-aos-duration='225'] [data-aos],
   background-color: #000;
   background-size: cover;
   overflow: hidden;
-  padding: 80px 0;
+  
   position: relative;
   width: 100%;
 }
 .home-section2bg{
   background: url('../public/assets/images/bg_about.png') no-repeat 0%;
+  padding: 80px 0;
+  background-size: cover;
 }
 .utilities2bg{
   background: url('../public/assets/images/dc46ffe4863dd9e775ae.png') no-repeat 0%;
@@ -161,16 +287,21 @@ body[data-aos-duration='225'] [data-aos],
   color: #fff;
   font-family: GothamLight;
   font-size: 19px;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   line-height: 1.8;
   margin-top: 70px;
   padding-right: 40px;
   text-align: left;
   text-transform: uppercase;
 }
+.home-section2 .right{
+  border-top: 5px solid rgba(0,255,232,.4);
+  margin-top: 20px;
+  /* width: 40%; */
+} 
 .home-section2 .title {
   color: #fff;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Bold;
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -212,7 +343,7 @@ body[data-aos-duration='225'] [data-aos],
 .home-section3 .main-title {
   color: #fff;
   display: block;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Regular;
   font-size: 55px;
   font-size: 65px;
   font-weight: 700;
@@ -248,7 +379,7 @@ body[data-aos-duration='225'] [data-aos],
 }
 .home-section5 .title {
   color: #fff;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Bold;
   font-size: 70px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -355,7 +486,7 @@ body[data-aos-duration='225'] [data-aos],
 .home-section4 .main-title {
   color: #fff;
   display: block;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Regular;
   font-size: 55px;
   font-size: 65px;
   font-weight: 700;
@@ -402,7 +533,7 @@ body[data-aos-duration='225'] [data-aos],
 }
 .home-section4  .title {
   color: #fff;
-  font-family: IntegralCF;
+  font-family: IntegralCF-Regular;
   font-size: 31.65px;
   letter-spacing: 3px;
   line-height: 1.053;

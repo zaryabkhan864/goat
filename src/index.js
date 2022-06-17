@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import './fonts/Gotham-Font/GothamBold.ttf';
+import './fonts/Gotham-Font/GothamLight.ttf';
+import './fonts/Integral/OTF/IntegralCF-Bold.otf';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

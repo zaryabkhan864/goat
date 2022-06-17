@@ -11,14 +11,14 @@ const About = () => {
             <div className="container-fluid home-section2 ">
                 <div className="row home-section2bg ">
          
-                    <div className="col-lg-6 " data-aos="fade-right">
+                    <div className="col-lg-7 col-md-12 col-sm-12 col-12 p-0" data-aos="fade-right">
                     {/* <img className='img-fluid' src="assets/images/bg_about.png" alt="" /> */}
                     {/* <div className="main-title">ABOUT US</div> */}
                     <div className="left aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" data-aos-anchor-placement="top-bottom">
                         <img className='img-fluid' src="assets/images/aboutgoat.png" alt="" />
                     </div>
                     </div>
-                    <div className="col-lg-6 px-5" data-aos="fade-left">
+                    <div className="col-lg-5 col-md-12 col-sm-12 col-12 ps-5 pe-0" data-aos="fade-left">
                     <div className="wrapper">
                     <div className="line">
                         <div className="borderr">

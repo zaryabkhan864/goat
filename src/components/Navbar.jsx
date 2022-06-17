@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
             <nav className="navbar navbar-expand-lg navbar-component ">
-                <div className="container-fluid">
+                <div className="container-fluid px-0">
                     <div className="logo">
                         <img className='' src='assets/images/logo.png' alt="" />
                     </div>
